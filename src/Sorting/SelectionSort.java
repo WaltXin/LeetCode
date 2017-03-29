@@ -11,8 +11,8 @@ public class SelectionSort {
 	}
 	
 	public static int[] selectionSort(int[] arr){
-		//Find the min one's place and replace with current index's place
-		
+		//1. Find the min value's index
+		//2. Replace the min value with current index value
 		for (int i = 0; i < arr.length; i++) {
 			int minIndex = i;
 			for (int j = i + 1; j < arr.length; j++) {
