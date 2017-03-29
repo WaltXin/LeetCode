@@ -3,11 +3,9 @@ package Sorting;
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		int arr[] = {1,4,3,2,8,5,6,9,7};
+		int arr[] = JavaHelper.arrayGenerator(20, 10, 300);
 		int[] result = selectionSort(arr);
-		for (int i = 0; i < result.length; i++) {
-			System.out.println(result[i]);
-		}
+		JavaHelper.printArray(result);
 	}
 	
 	public static int[] selectionSort(int[] arr){
