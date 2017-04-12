@@ -1,6 +1,21 @@
 package HeapPac;
 
 import java.util.Random;
+/**
+ * Use Complete Binary Tree(Parent always bigger(smaller) than children left node always exist(except final left code)
+ *          53(1)
+ *        /      \
+ *       48(2)   21(3)
+ *      /   \     /   \
+ *    36(4) 9(5) 11(6)       
+ *    
+ *   Parent: i/2
+ *   Left Node: 2*i
+ *   Right Node: 2*i + 1
+ *      
+ * */
+
+
 
 public class HeapClass {
 	
