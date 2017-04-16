@@ -12,9 +12,9 @@ import java.util.Random;
  *   Parent: i/2
  *   Left Node: 2*i
  *   Right Node: 2*i + 1
- *      
+ *   ShiftUp add value in last one and compare with parent to move the node to the right place
+ *   ShifDown remove value in the head and add last node in to head then move node to the right place 
  * */
-
 
 
 public class HeapClass {
@@ -27,6 +27,31 @@ public class HeapClass {
 	public HeapClass(int capacity) {
 		this.capacity = capacity;
 		HeapTree = new int[this.capacity];
+	}
+	
+	private void ShiftUp(int k) {
+		while (k > 1 && HeapTree[k] > HeapTree[k/2]) {
+			int tem = HeapTree[k];
+			HeapTree[k] = HeapTree[k/2];
+			HeapTree[k/2] = tem;
+			k = k/2;
+		}
+	}
+	
+	private void ShiftDown(int k) {	
+		while (2 * k <= count) {
+			int j = 2 * k;
+			if (j + 1 <= count && HeapTree[j + 1] > HeapTree[j]) {
+				j ++;
+			}
+			if (HeapTree[k] > HeapTree[j]) {
+				break;
+			}
+			int tem = HeapTree[k];
+			HeapTree[k] = HeapTree[j];
+			HeapTree[j] = tem;
+			k = j;
+		}
 	}
 
 	public int Size(){
@@ -46,12 +71,18 @@ public class HeapClass {
 		}
 	}
 	
-	private void ShiftUp(int k) {
-		while (k > 1 && HeapTree[k] > HeapTree[k/2]) {
-			int tem = HeapTree[k];
-			HeapTree[k] = HeapTree[k/2];
-			HeapTree[k/2] = tem;
-			k = k/2;
+	public int DeleteFirstNode() {
+		if (count > 1) {
+			int res = HeapTree[1];
+			//Swap head node with last node
+			int tem = HeapTree[count];
+			HeapTree[count] = HeapTree[1];
+			HeapTree[1] = tem;
+			count --;
+			ShiftDown(1);			
+			return res;
+		} else {
+			return -1;
 		}
 	}
 	
@@ -69,6 +100,10 @@ public class HeapClass {
 		int[] result = heap.Tree();
 		for (int i:result) {
 			System.out.print(i + " ");
+		}
+		System.out.println("\n");
+		for (int i = 0; i <= 25; i++) {
+			System.out.println(heap.DeleteFirstNode());
 		}
 	}
 }
