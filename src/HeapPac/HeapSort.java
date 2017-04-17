@@ -11,24 +11,25 @@ package HeapPac;
 
 
 class Heap{	
-	public void HeapSort(int[] arr) {
+	public int[] HeapSort(int[] arr) {
 		//the last un_leaf node is
 		int length = arr.length;
-		int unLeaf = (length - 1)/2;
+		int unLeaf = (length - 1) / 2;
 		for (int i = unLeaf; i >=0; i--) {
-			ShiftDown(arr, i);
+			ShiftDown(arr, length, i);
 		}
 		for (int i = length - 1; i > 0; i--) {
-			int tem = arr[length - 1];
-			arr[length - 1] = arr[0];
+			int tem = arr[i];
+			arr[i] = arr[0];
 			arr[0] = tem;
-			ShiftDown(arr, 0);
+			ShiftDown(arr, i, 0);
 		}
+		return arr;
 		
 	}
 	
-	public void ShiftDown(int[] arr, int k) {
-		int length = arr.length;
+	public void ShiftDown(int[] arr,int n, int k) {
+		int length = n;
 		while (2 * k + 1 < length) {
 			int j = 2 * k + 1;
 			if (j + 1 < length && arr[j + 1] > arr[j]) {
@@ -50,7 +51,10 @@ public class HeapSort {
 	public static void main(String[] args) {
 		int[] arr = { 1, 5, 2, 3, 4, 7, 9, 8};
 		Heap heap = new Heap();
-		heap.HeapSort(arr);
+		int[] result = heap.HeapSort(arr);
+		for (int i:result) {
+			System.out.println(i);
+		}
 	}
 
 }
