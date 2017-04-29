@@ -1,4 +1,4 @@
-package LeetArray;
+package LeetCode;
 
 public class J27_Remove_Element {
 

@@ -1,4 +1,4 @@
-package LeetArray;
+package LeetCode;
 
 public class J35_Search_Insert_Position {
 

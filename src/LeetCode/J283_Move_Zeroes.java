@@ -1,4 +1,4 @@
-package LeetArray;
+package LeetCode;
 
 public class J283_Move_Zeroes {
 

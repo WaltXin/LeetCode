@@ -1,4 +1,4 @@
-package LeetArray;
+package LeetCode;
 
 public class J1_Two_Sum {
 

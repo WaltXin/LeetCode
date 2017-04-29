@@ -1,4 +1,4 @@
-package LeetArray;
+package LeetCode;
 
 public class J485_Max_Consecutive_Ones {
 
