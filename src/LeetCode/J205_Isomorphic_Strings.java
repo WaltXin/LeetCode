@@ -18,7 +18,7 @@ public class J205_Isomorphic_Strings {
 					return false;
 				}
 			} else {
-				if (!map.containsKey(b)) {
+				if (!map.containsValue(b)) {
 					map.put(a, b);
 				} else {
 					return false;
