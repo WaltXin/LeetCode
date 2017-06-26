@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a57af2-b08a-43da-bb0a-06f930750dc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J371_Sum_Of_Two_Integers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java" afterPath="$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="J476_Number_complement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="J476_Number_complement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="280">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,15 +29,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="J461_Hamming_Distance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/J461_Hamming_Distance.java">
+      <file leaf-file-name="J371_Sum_Of_Two_Integers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/J371_Sum_Of_Two_Integers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="241">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/J231_Power_Of_Two.java" />
         <option value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
         <option value="$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/J371_Sum_Of_Two_Integers.java" />
       </list>
     </option>
   </component>
@@ -156,27 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.J476_Number_complement.test">
-    <configuration default="false" name="J167_Two_Sum_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.J167_Two_Sum_II" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetCode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.J371_Sum_Of_Two_Integers">
     <configuration default="false" name="J461_Hamming_Distance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -269,6 +249,32 @@
       <option name="MAIN_CLASS_NAME" value="LeetCode.J476_Number_complement" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="J371_Sum_Of_Two_Integers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LeetCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.J371_Sum_Of_Two_Integers" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -486,19 +492,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.J167_Two_Sum_II" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.J461_Hamming_Distance" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.J231_Power_Of_Two.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.J476_Number_complement" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.J476_Number_complement.test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.J461_Hamming_Distance" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.J231_Power_Of_Two.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.J476_Number_complement" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.J476_Number_complement.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.J371_Sum_Of_Two_Integers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.J476_Number_complement.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.J476_Number_complement" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.J231_Power_Of_Two.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.J461_Hamming_Distance" />
-        <item index="4" class="java.lang.String" itemvalue="Application.J167_Two_Sum_II" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.J371_Sum_Of_Two_Integers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.J476_Number_complement.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.J476_Number_complement" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.J231_Power_Of_Two.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.J461_Hamming_Distance" />
       </list>
     </recent_temporary>
   </component>
@@ -516,11 +522,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="J476_Number_complement - 2017.06.26 at 18h 44m 35s.xml">
-      <configuration name="J476_Number_complement" configurationId="JUnit" />
+    <history-entry file="J371_Sum_Of_Two_Integers - 2017.06.26 at 19h 09m 15s.xml">
+      <configuration name="J371_Sum_Of_Two_Integers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="J476_Number_complement - 2017.06.26 at 18h 45m 14s.xml">
-      <configuration name="J476_Number_complement" configurationId="JUnit" />
+    <history-entry file="J371_Sum_Of_Two_Integers - 2017.06.26 at 19h 10m 52s.xml">
+      <configuration name="J371_Sum_Of_Two_Integers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J371_Sum_Of_Two_Integers - 2017.06.26 at 19h 15m 09s.xml">
+      <configuration name="J371_Sum_Of_Two_Integers" configurationId="JUnit" />
     </history-entry>
     <history-entry file="J476_Number_complement - 2017.06.26 at 18h 51m 58s.xml">
       <configuration name="J476_Number_complement" configurationId="JUnit" />
@@ -533,9 +542,6 @@
     </history-entry>
     <history-entry file="J476_Number_complement - 2017.06.26 at 18h 57m 23s.xml">
       <configuration name="J476_Number_complement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="J476_Number_complement_test - 2017.06.26 at 18h 45m 30s.xml">
-      <configuration name="J476_Number_complement.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="J476_Number_complement_test - 2017.06.26 at 18h 46m 44s.xml">
       <configuration name="J476_Number_complement.test" configurationId="JUnit" />
@@ -589,7 +595,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java</url>
-          <line>25</line>
+          <line>24</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -794,6 +800,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J461_Hamming_Distance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -806,18 +820,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="280">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J371_Sum_Of_Two_Integers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="241">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

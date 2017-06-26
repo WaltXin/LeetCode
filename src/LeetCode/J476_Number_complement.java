@@ -22,7 +22,6 @@ public class J476_Number_complement {
 
     @Test
     public void test() {
-        System.out.print(Integer.MAX_VALUE);
         assertEquals(1,new J476_Number_complement().findComplement(2147483646));
         assertEquals(2,new J476_Number_complement().findComplement(5));
     }
