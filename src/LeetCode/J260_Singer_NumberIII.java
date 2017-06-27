@@ -18,7 +18,7 @@ public class J260_Singer_NumberIII {
         int[] result = new int[2];
         for (int num : nums) {
             if ((num & diff) == 0) {
-                //the bit is not set
+                //the bit is not set, because two different value will separate(one have zero set, one doesn't have zero set after XOR)
                 result[0] ^= num;
             } else {
                 //the bit is set
