@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a57af2-b08a-43da-bb0a-06f930750dc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J191_Number_Of_Onebit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,15 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="J191_Number_Of_Onebit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="J191_Number_Of_Onebit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/J191_Number_Of_Onebit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#503#504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="J342_Power_Of_Four.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/J137_Single_NumberII.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J405_Convert_Number_To_Hex.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J191_Number_Of_Onebit.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java" />
       </list>
     </option>
   </component>
@@ -172,33 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.J191_Number_Of_Onebit.test">
-    <configuration default="false" name="J477_Total_Hamming_Distance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LeetCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.J477_Total_Hamming_Distance" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.J342_Power_Of_Four">
     <configuration default="false" name="J477_Total_Hamming_Distance.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -291,6 +280,32 @@
       <option name="MAIN_CLASS_NAME" value="LeetCode.J191_Number_Of_Onebit" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="J342_Power_Of_Four" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LeetCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.J342_Power_Of_Four" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -508,19 +523,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.J477_Total_Hamming_Distance" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.J477_Total_Hamming_Distance.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.J137_Single_NumberII.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.J405_Convert_Number_To_Hex" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.J191_Number_Of_Onebit.test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.J477_Total_Hamming_Distance.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.J137_Single_NumberII.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.J405_Convert_Number_To_Hex" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.J191_Number_Of_Onebit.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.J342_Power_Of_Four" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.J191_Number_Of_Onebit.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.J405_Convert_Number_To_Hex" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.J137_Single_NumberII.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.J477_Total_Hamming_Distance.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.J477_Total_Hamming_Distance" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.J342_Power_Of_Four" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.J191_Number_Of_Onebit.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.J405_Convert_Number_To_Hex" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.J137_Single_NumberII.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.J477_Total_Hamming_Distance.test" />
       </list>
     </recent_temporary>
   </component>
@@ -541,8 +556,8 @@
     <history-entry file="J191_Number_Of_Onebit_test - 2017.06.28 at 19h 44m 44s.xml">
       <configuration name="J191_Number_Of_Onebit.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="J405_Convert_Number_To_Hex - 2017.06.28 at 19h 21m 19s.xml">
-      <configuration name="J405_Convert_Number_To_Hex" configurationId="JUnit" />
+    <history-entry file="J342_Power_Of_Four - 2017.06.28 at 19h 51m 07s.xml">
+      <configuration name="J342_Power_Of_Four" configurationId="JUnit" />
     </history-entry>
     <history-entry file="J405_Convert_Number_To_Hex - 2017.06.28 at 19h 31m 50s.xml">
       <configuration name="J405_Convert_Number_To_Hex" configurationId="JUnit" />
@@ -740,12 +755,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J191_Number_Of_Onebit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
