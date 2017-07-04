@@ -12,13 +12,12 @@ public class J162_Find_Peak_Element {
         int l = 0;
         int r = nums.length - 1;
         while (l < r) {
-            int mid1 = (l+r)/2;
-            int mid2 = mid1+1;
-            if(nums[mid1] < nums[mid2]) {
-                l = mid2;
+            int mid = (l+r)/2;
+            if(nums[mid] < nums[mid + 1]) {
+                l = mid + 1;
             }
             else {
-                r = mid1;
+                r = mid;
             }
         }
         return l;
