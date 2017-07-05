@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a57af2-b08a-43da-bb0a-06f930750dc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J74_Search_2D_Matrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J347_Guess_Number_Higher_Or_Lower.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,13 +74,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="J74_Search_2D_Matrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="J74_Search_2D_Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/J74_Search_2D_Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="7">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="J347_Guess_Number_Higher_Or_Lower.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/J347_Guess_Number_Higher_Or_Lower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="39" column="78" lean-forward="false" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/J162_Find_Peak_Element.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J441_Arranging_Coins.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J74_Search_2D_Matrix.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/J347_Guess_Number_Higher_Or_Lower.java" />
       </list>
     </option>
   </component>
@@ -220,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.J74_Search_2D_Matrix">
+  <component name="RunManager" selected="JUnit.J347_Guess_Number_Higher_Or_Lower">
     <configuration default="false" name="J162_Find_Peak_Element" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -235,32 +250,6 @@
       <option name="MAIN_CLASS_NAME" value="LeetCode.J162_Find_Peak_Element" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="J162_Find_Peak_Element.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LeetCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.J162_Find_Peak_Element" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -339,6 +328,32 @@
       <option name="MAIN_CLASS_NAME" value="LeetCode.J74_Search_2D_Matrix" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="J347_Guess_Number_Higher_Or_Lower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LeetCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.J347_Guess_Number_Higher_Or_Lower" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -557,18 +572,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.J162_Find_Peak_Element" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.J162_Find_Peak_Element.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.J441_Arranging_Coins" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.J441_Arranging_Coins" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.J347_Guess_Number_Higher_Or_Lower" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.J441_Arranging_Coins" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.J162_Find_Peak_Element" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.J162_Find_Peak_Element.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.J347_Guess_Number_Higher_Or_Lower" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.J74_Search_2D_Matrix.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.J441_Arranging_Coins" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.J162_Find_Peak_Element" />
       </list>
     </recent_temporary>
   </component>
@@ -589,8 +604,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="J74_Search_2D_Matrix - 2017.07.05 at 20h 52m 09s.xml">
-      <configuration name="J74_Search_2D_Matrix" configurationId="JUnit" />
+    <history-entry file="J347_Guess_Number_Higher_Or_Lower - 2017.07.05 at 21h 18m 37s.xml">
+      <configuration name="J347_Guess_Number_Higher_Or_Lower" configurationId="JUnit" />
     </history-entry>
     <history-entry file="J74_Search_2D_Matrix - 2017.07.05 at 20h 52m 16s.xml">
       <configuration name="J74_Search_2D_Matrix" configurationId="JUnit" />
@@ -633,7 +648,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21840659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21840659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -683,14 +698,8 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/J74_Search_2D_Matrix.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -699,7 +708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J371_Sum_Of_Two_Integers.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J260_Singer_NumberIII.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J461_Hamming_Distance.java" />
@@ -975,10 +983,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J74_Search_2D_Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="7">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J347_Guess_Number_Higher_Or_Lower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="39" column="78" lean-forward="false" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
           </folding>
         </state>
       </provider>
