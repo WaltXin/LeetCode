@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a57af2-b08a-43da-bb0a-06f930750dc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/J50_Pow_X_N.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/J50_Pow_X_N.class" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/J50_Pow_X_N.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,62 +18,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="J34_Search_For_Range.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/J34_Search_For_Range.java">
+      <file leaf-file-name="Algo_BinarySearchConclusion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="277">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="J209_Minimux_Size_Subarray_Sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/J209_Minimux_Size_Subarray_Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="J69_Sqrt_X.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/J69_Sqrt_X.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="J50_Pow_X_N.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/J50_Pow_X_N.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="J342_Power_Of_Four.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -123,10 +79,12 @@
         <option value="$PROJECT_DIR$/src/LeetCode/J209_Minimux_Size_Subarray_Sum.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J69_Sqrt_X.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J50_Pow_X_N.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -215,33 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.J50_Pow_X_N">
-    <configuration default="false" name="J209_Minimux_Size_Subarray_Sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LeetCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.J209_Minimux_Size_Subarray_Sum" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Algo_BinarySearchConclusion.test">
     <configuration default="false" name="J69_Sqrt_X" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -332,6 +264,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="LeetCode" />
       <option name="MAIN_CLASS_NAME" value="LeetCode.J50_Pow_X_N" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Algo_BinarySearchConclusion.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LeetCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Algo_BinarySearchConclusion" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -551,19 +509,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.J209_Minimux_Size_Subarray_Sum" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N.test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Algo_BinarySearchConclusion.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.J209_Minimux_Size_Subarray_Sum" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Algo_BinarySearchConclusion.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.J50_Pow_X_N.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.J69_Sqrt_X.test" />
       </list>
     </recent_temporary>
   </component>
@@ -584,6 +542,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.10 at 20h 56m 13s.xml">
+      <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="J50_Pow_X_N - 2017.07.09 at 17h 29m 31s.xml">
       <configuration name="J50_Pow_X_N" configurationId="JUnit" />
     </history-entry>
@@ -611,12 +572,9 @@
     <history-entry file="J50_Pow_X_N_test - 2017.07.09 at 17h 30m 34s.xml">
       <configuration name="J50_Pow_X_N.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="J69_Sqrt_X - 2017.07.09 at 17h 08m 17s.xml">
-      <configuration name="J69_Sqrt_X" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="797" extended-state="6" />
+    <frame x="1" y="24" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -688,7 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J219_Contains_Duplicate_II.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J485_Max_Consecutive_Ones.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J414_Third_Maximum_Number.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J389_Find_The_Difference.java" />
@@ -967,34 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J34_Search_For_Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J209_Minimux_Size_Subarray_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J69_Sqrt_X.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -1013,6 +942,46 @@
             <element signature="imports" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
             <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J209_Minimux_Size_Subarray_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/J34_Search_For_Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
           </folding>
         </state>
       </provider>
