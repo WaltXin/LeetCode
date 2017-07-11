@@ -24,8 +24,52 @@ public class Algo_BinarySearchConclusion {
         }
         return -1;
     }
+
+    //[repeat arr]find the min index in arr, if not exist return -1;
+    public static int search_2(int[] arr, int target) {
+        if (target > arr[arr.length - 1] || target < arr[0]) return -1;
+        int l = 0;
+        int r = arr.length - 1;
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            if (arr[mid] >= target) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        if (arr[l] == target) {
+            return l;
+        } else {
+            return -1;
+        }
+    }
+
+    //[repeat arr]find the max index in arr, if not exist return -1;
+    public static int search_3(int[] arr, int target) {
+        if (target > arr[arr.length - 1] || target < arr[0]) return -1;
+        int l = 0;
+        int r = arr.length - 1;
+        while (l < r) {
+            int mid = l + (r - l + 1) / 2;
+            if (arr[mid] <= target) {
+                l = mid;
+            } else {
+                r = mid -1;
+            }
+        }
+        if (arr[r] == target) {
+            return r;
+        } else {
+            return -1;
+        }
+    }
+
     @Test
     public void test() {
         assertEquals(3, new Algo_BinarySearchConclusion().search_1(new int[]{1,3,9,10,23},10));
+        assertEquals(1, new Algo_BinarySearchConclusion().search_2(new int[]{1,2,2,2,3,9,10,23},2));
+        assertEquals(3, new Algo_BinarySearchConclusion().search_3(new int[]{1,2,2,2,3,9,10,23},2));
     }
+
 }
