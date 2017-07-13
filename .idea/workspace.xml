@@ -18,8 +18,8 @@
       <file leaf-file-name="Algo_BinarySearchConclusion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="109" column="35" lean-forward="true" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+            <state relative-caret-position="237">
+              <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -552,6 +552,12 @@
     <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 26m 56s.xml">
       <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 30m 14s.xml">
+      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 31m 07s.xml">
+      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.10 at 20h 56m 13s.xml">
       <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
     </history-entry>
@@ -560,12 +566,6 @@
     </history-entry>
     <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.14 at 19h 24m 09s.xml">
       <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="J50_Pow_X_N - 2017.07.09 at 18h 12m 26s.xml">
-      <configuration name="J50_Pow_X_N" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="J50_Pow_X_N - 2017.07.09 at 18h 29m 03s.xml">
-      <configuration name="J50_Pow_X_N" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -971,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="109" column="35" lean-forward="true" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+        <state relative-caret-position="237">
+          <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

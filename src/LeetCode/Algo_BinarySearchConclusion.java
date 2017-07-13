@@ -111,7 +111,28 @@ public class Algo_BinarySearchConclusion {
         }
     }
 
+    //[repeat arr]find the minimal absolute values position;
+    public static int search_7(int[] arr) {
+        int l = 0;
+        int r = arr.length - 1;
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            if (arr[mid] >= 0) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        if (arr[l] == 0) {
+            return 0;
+        }
+        if (l == 0) {
+            return arr[l];
+        } else {
+            return l > Math.abs(l - 1) ? arr[l - 1] : arr[l];
+        }
 
+    }
 
 
     @Test
@@ -122,6 +143,7 @@ public class Algo_BinarySearchConclusion {
         assertEquals(1, new Algo_BinarySearchConclusion().search_4(new int[]{1,3,9,10,23},2));
         assertEquals(5, new Algo_BinarySearchConclusion().search_5(new int[]{1,2,2,2,3,9,10,23},4));
         assertEquals(3, new Algo_BinarySearchConclusion().search_6(new int[]{1,2,2,2,3,9,10,23},2));
+        assertEquals(-2, new Algo_BinarySearchConclusion().search_7(new int[]{-6,-6,-2,-2,3,6,6,9}));
     }
 
 }
