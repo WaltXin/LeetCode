@@ -83,6 +83,24 @@ public class Algo_BinarySearchConclusion {
         return l;
     }
 
+    //[repeat arr]find the insert position, if target exist return the target place if not exist return the insert place
+    public static int search_5(int[] arr, int target) {
+        if (target > arr[arr.length - 1])return arr.length;
+        if (target < arr[0]) return 0;
+        int l = 0;
+        int r = arr.length - 1;
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            if (arr[mid] >= target) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
+
+
 
     @Test
     public void test() {
@@ -90,6 +108,7 @@ public class Algo_BinarySearchConclusion {
         assertEquals(1, new Algo_BinarySearchConclusion().search_2(new int[]{1,2,2,2,3,9,10,23},2));
         assertEquals(3, new Algo_BinarySearchConclusion().search_3(new int[]{1,2,2,2,3,9,10,23},2));
         assertEquals(1, new Algo_BinarySearchConclusion().search_4(new int[]{1,3,9,10,23},2));
+        assertEquals(5, new Algo_BinarySearchConclusion().search_5(new int[]{1,2,2,2,3,9,10,23},4));
     }
 
 }
