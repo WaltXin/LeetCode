@@ -100,6 +100,18 @@ public class Algo_BinarySearchConclusion {
         return l;
     }
 
+    //[repeat arr]find target repeat times in arr;
+    public static int search_6(int[] arr, int target) {
+        int first = search_2(arr,target);
+        int last = search_3(arr,target);
+        if (first == -1 || last == -1) {
+            return 0;
+        } else {
+            return last - first +1;
+        }
+    }
+
+
 
 
     @Test
@@ -109,6 +121,7 @@ public class Algo_BinarySearchConclusion {
         assertEquals(3, new Algo_BinarySearchConclusion().search_3(new int[]{1,2,2,2,3,9,10,23},2));
         assertEquals(1, new Algo_BinarySearchConclusion().search_4(new int[]{1,3,9,10,23},2));
         assertEquals(5, new Algo_BinarySearchConclusion().search_5(new int[]{1,2,2,2,3,9,10,23},4));
+        assertEquals(3, new Algo_BinarySearchConclusion().search_6(new int[]{1,2,2,2,3,9,10,23},2));
     }
 
 }
