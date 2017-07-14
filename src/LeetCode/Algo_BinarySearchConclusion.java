@@ -131,7 +131,34 @@ public class Algo_BinarySearchConclusion {
         } else {
             return l > Math.abs(l - 1) ? arr[l - 1] : arr[l];
         }
+    }
 
+    //an array rotated in one position, find target position, if not exist return -1. eg: arr = [5,6,7,1,2,3,4]
+    public static int search_8(int[] arr, int target) {
+        //few scenarios [], 12345, 45123, 23451
+        if (arr == null || arr.length == 0) return -1;
+        int l = 0;
+        int r = arr.length - 1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            if (arr[mid] == target) return mid;
+            if (arr[mid] >= arr[l]) {
+                //l - mid ascending
+                if (target >= arr[l] && target < arr[mid]) {
+                    r = mid - 1;
+                } else {
+                    l = mid + 1;
+                }
+            } else {
+                //mid - r ascending
+                if (target > arr[mid] && target <= arr[r]) {
+                    l = mid + 1;
+                } else {
+                    r = mid - 1;
+                }
+            }
+        }
+        return -1;
     }
 
 
@@ -144,6 +171,8 @@ public class Algo_BinarySearchConclusion {
         assertEquals(5, new Algo_BinarySearchConclusion().search_5(new int[]{1,2,2,2,3,9,10,23},4));
         assertEquals(3, new Algo_BinarySearchConclusion().search_6(new int[]{1,2,2,2,3,9,10,23},2));
         assertEquals(-2, new Algo_BinarySearchConclusion().search_7(new int[]{-6,-6,-2,-2,3,6,6,9}));
+        assertEquals(2, new Algo_BinarySearchConclusion().search_8(new int[]{1,2,3,4,5},3));
+        assertEquals(1, new Algo_BinarySearchConclusion().search_8(new int[]{5,1,2,3,4},1));
     }
 
 }

@@ -18,8 +18,8 @@
       <file leaf-file-name="Algo_BinarySearchConclusion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+            <state relative-caret-position="487">
+              <caret line="173" column="8" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -537,9 +537,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 14m 58s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 15m 43s.xml">
       <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
     </history-entry>
@@ -558,8 +555,11 @@
     <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 31m 07s.xml">
       <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.10 at 20h 56m 13s.xml">
-      <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
+    <history-entry file="Algo_BinarySearchConclusion - 2017.07.15 at 12h 00m 22s.xml">
+      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Algo_BinarySearchConclusion - 2017.07.15 at 12h 02m 59s.xml">
+      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.14 at 19h 21m 09s.xml">
       <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
@@ -581,7 +581,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21840659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21840659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -631,8 +631,20 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -971,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+        <state relative-caret-position="487">
+          <caret line="173" column="8" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
