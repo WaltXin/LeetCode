@@ -9,6 +9,9 @@ public class J1_Two_Sum {
 		for (int i : result) {
 			System.out.println(i);
 		}
+		
+		String s = " DIESEL ESTATE";
+		System.out.println(s.toLowerCase());
 	}
 	
 	public static int[] solution(int[] nums, int target) {
