@@ -118,12 +118,34 @@ public class Algo_SortConclusion {
 		return i;
 	}
 	
+	public int[] genArray(int num, int lLimit, int rLimit) {
+		Random rand = new Random();
+		int[] res = new int[num];
+		for (int i = 0; i < num; i++) {
+			int randVal = rand.nextInt(rLimit - lLimit + 1) + lLimit;
+			res[i] = randVal;
+		}
+		return res;
+	}
+	
+	public int[][] generatedArray(int num, int lLimit, int rLimit) {
+		int[][] res = new int[2][num];
+		int[] arr = genArray(num, lLimit, rLimit);
+		int[] mergedSort = mergeSort(arr);
+		res[0] = arr;
+		res[1] = mergedSort;
+		return res;
+	}
+	
 
     @Test
     public void test() {
-        assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().selectionSort(new int[]{4,5,3,1,2,8,9,7,6}));
-        assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().insertSort(new int[]{4,5,3,1,2,8,9,7,6}));
-        assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().mergeSort(new int[]{4,5,3,1,2,8,9,7,6}));
-        assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().quickSort(new int[]{4,5,3,1,2,8,9,7,6}));
+    	int[][] arr = generatedArray(10000, 1, 10000);
+    	int[] randomArray = arr[0];
+    	int[] sortedArray = arr[1];
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().selectionSort(randomArray));
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().insertSort(randomArray));
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().mergeSort(randomArray));
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().quickSort(randomArray));
     }
 }
