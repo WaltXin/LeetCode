@@ -3,6 +3,8 @@ package LeetCode;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
+
+import java.util.Random;
 /**
  * Created by walt on 17/07/2017.
  */
@@ -73,11 +75,55 @@ public class Algo_SortConclusion {
 		}
 	}
 	
+	public int[] quickSort(int[] arr) {
+		__quickSort(arr, 0, arr.length - 1);
+		return arr;
+	}
+	
+	public void __quickSort(int[] arr, int l, int r) {
+		if (l >= r) return;
+		int p = partition(arr, l, r);
+		__quickSort(arr, l, p - 1);
+		__quickSort(arr, p + 1, r);
+	}
+	
+	public int partition(int[] arr, int l, int r) {
+		Random rand = new Random();
+		int randVal = rand.nextInt(r - l + 1) + l;
+		//Swap a random value to increase the balance
+		int temV = arr[l];
+		arr[l] = arr[randVal];
+		arr[randVal] = temV;
+		int v = arr[l];
+		//arr[l + 1, i] < v;
+		//arr[i + 1, j] > v;
+		int i = l;
+		int j = i + 1;
+		while (j <= r) {
+			if (arr[j] < v) {
+				int tem = arr[i + 1];
+				arr[i + 1] = arr[j];
+				arr[j] = tem;
+				i++;
+				j++;
+			} else {
+				j++;
+			}
+		}
+
+		//Swap v and i
+		int temVS = arr[l];
+		arr[l] = arr[i];
+		arr[i] = temVS;
+		return i;
+	}
+	
 
     @Test
     public void test() {
         assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().selectionSort(new int[]{4,5,3,1,2,8,9,7,6}));
         assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().insertSort(new int[]{4,5,3,1,2,8,9,7,6}));
         assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().mergeSort(new int[]{4,5,3,1,2,8,9,7,6}));
+        assertArrayEquals(new int[]{1,2,3,4,5,6,7,8,9}, new Algo_SortConclusion().quickSort(new int[]{4,5,3,1,2,8,9,7,6}));
     }
 }
