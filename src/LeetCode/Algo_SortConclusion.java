@@ -137,15 +137,36 @@ public class Algo_SortConclusion {
 		return res;
 	}
 	
+	public int[] calRunTime(String str, int[] arr) {
+		long startTime = System.currentTimeMillis();
+		int[] res = new int[arr.length];
+		switch(str) {
+			case "selectionSort": res = new Algo_SortConclusion().selectionSort(arr);
+				  	break;
+			case "insertSort": res = new Algo_SortConclusion().insertSort(arr);
+					break;
+			case "mergeSort": res = new Algo_SortConclusion().mergeSort(arr);
+					break;
+			case "quickSort": res = new Algo_SortConclusion().quickSort(arr);
+					break;
+				
+		}
+		long stopTime = System.currentTimeMillis();
+		long elapsedTime = stopTime - startTime;
+		System.out.println(str + ": " + elapsedTime + " millisecond");
+		return res;
+	}
+	
 
     @Test
     public void test() {
-    	int[][] arr = generatedArray(10000, 1, 10000);
+    	int[][] arr = generatedArray(100000, 1, 10000);
     	int[] randomArray = arr[0];
     	int[] sortedArray = arr[1];
-    	assertArrayEquals(sortedArray, new Algo_SortConclusion().selectionSort(randomArray));
-    	assertArrayEquals(sortedArray, new Algo_SortConclusion().insertSort(randomArray));
-    	assertArrayEquals(sortedArray, new Algo_SortConclusion().mergeSort(randomArray));
-    	assertArrayEquals(sortedArray, new Algo_SortConclusion().quickSort(randomArray));
+    	System.out.println("1 second = 1000 millisecond");
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().calRunTime("selectionSort", randomArray));
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().calRunTime("insertSort", randomArray));
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().calRunTime("mergeSort", randomArray));
+    	assertArrayEquals(sortedArray, new Algo_SortConclusion().calRunTime("quickSort", randomArray));
     }
 }
