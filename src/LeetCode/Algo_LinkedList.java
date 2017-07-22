@@ -73,6 +73,18 @@ public class Algo_LinkedList {
 			pre.next = pre.next.next;
 		}
 		
+		public void reverseNodeList() {
+			Node temp = head;
+			Node before = null;
+			while (temp != null) {
+				Node next = temp.next;
+				temp.next = before;
+				before = temp;
+				temp = next;
+			}
+			head = before;
+		}
+		
 		public void printLinkedList() {
 			Node currentNode = head;
 			System.out.println("displays");
@@ -94,6 +106,9 @@ public class Algo_LinkedList {
 		list.printLinkedList();
 		list.deleteNode(6);
 		list.deleteNode(10);
+		list.printLinkedList();
+		list.reverseNodeList();
+		System.out.println("After Reverse: ");
 		list.printLinkedList();
 	}
 }
