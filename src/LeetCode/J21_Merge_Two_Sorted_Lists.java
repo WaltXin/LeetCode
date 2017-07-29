@@ -34,20 +34,6 @@ public class J21_Merge_Two_Sorted_Lists {
         return head;
     }
 	
-	public static void test(ListNode head) {
-		ListNode l = new ListNode(1);
-		ListNode temp = l;
-		while (head != null) {
-			temp.next = head;
-			temp = temp.next;
-			head = head.next;
-		}
-		
-		System.out.println("d");
-		System.out.println("d");
-		
-	}
-	
 	public static void main(String[] args) {
 		ListNode n1 = new ListNode(1);
 		ListNode n2 = new ListNode(0);
