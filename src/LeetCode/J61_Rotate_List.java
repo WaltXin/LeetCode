@@ -2,47 +2,6 @@ package LeetCode;
 
 public class J61_Rotate_List {
 
-	public ListNode rotateRight(ListNode head, int k) {
-		//rotate list by k. get k % len steps, then reverse list first and in the k % len nodes, reverse the next list.
-		// 5 > 4 > 3 > 2 > 1 k = 2  ->  1 > 2 > 3 > 4 > 5  ->  1 > 2 > 5 > 4 > 3
-		if (head == null || head.next == null) {
-			return head;
-		}
-		int len = 0;
-		ListNode prev = null;
-		while (head != null) {
-			ListNode next = head.next;
-			head.next = prev;
-			prev = head;
-			head = next;
-			len++;
-		}
-		//prev is the reversed list
-		head = prev;
-		int loop = k % len;
-		
-		ListNode secPrev = null;
-		ListNode temp = head;
-		while (temp != null) {
-			if (--loop >= 0) {
-				temp = temp.next;
-			} else {
-				ListNode next = temp.next;
-				temp.next = secPrev;
-				secPrev = temp;
-				temp = next;
-			}
-		}
-		temp = head;
-		loop = k % len;
-		while ( loop > 0) {
-			temp = temp.next;
-			loop--;
-		}
-		temp.next = secPrev;
-		return head;
-	}
-	
 	public ListNode rotateRightSolution(ListNode head, int k) {
 		if (head == null || head.next == null) {
 			return head;
