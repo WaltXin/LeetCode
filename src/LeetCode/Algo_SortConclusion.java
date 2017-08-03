@@ -42,34 +42,37 @@ public class Algo_SortConclusion {
 		return arr;
 	}
 	
-	public void __mergeSort(int[] arr, int l, int r) {
-		if (l >= r) return;
-		int mid = l + (r - l) / 2;
-		__mergeSort(arr, l, mid);
-		__mergeSort(arr, mid + 1, r);
-		merge(arr, l, mid, r);
+	public void __mergeSort(int[] arr, int le, int ri) {
+		if (le >= ri) return;
+		int mid = le + (ri - le) / 2;
+		__mergeSort(arr, le, mid);
+		__mergeSort(arr, mid + 1, ri);
+		merge(arr, le, mid, ri);
 	}
 	
-	public void merge(int[] arr, int l, int mid, int r) {
-		int[] aux = new int[r - l + 1];
-		for (int i = l; i <= r; i++) {
-			aux[i - l] = arr[i];
+	public void merge(int[] arr, int le, int mid, int ri) {
+		//create auxiliary array to store the current array value
+		int[] aux = new int[ri - le + 1];
+		for (int i = le; i <= ri; i++) {
+			aux[i - le] = arr[i];
 		}
-		int i = l;
+		//two pointer i and j. 1,3,5   2,4,6  i is 1 and j is 2.
+		int i = le;
 		int j = mid + 1;
 		
-		for (int k = l; k <= r; k++) {
+		//because we have le's offset we need minus le to get aux array's value
+		for (int k = le; k <= ri; k++) {
 			if (i > mid) {
-				arr[k] = aux[j - l];
+				arr[k] = aux[j - le];
 				j++;
-			} else if (j > r) {
-				arr[k] = aux[i - l];
+			} else if (j > ri) {
+				arr[k] = aux[i - le];
 				i++;
-			} else if (aux[i - l] < aux[j - l]) {
-				arr[k] = aux[i - l];
+			} else if (aux[i - le] < aux[j - le]) {
+				arr[k] = aux[i - le];
 				i++;
 			} else {
-				arr[k] = aux[j - l];
+				arr[k] = aux[j - le];
 				j++;
 			}
 		}
