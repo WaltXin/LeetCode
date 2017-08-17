@@ -3,6 +3,7 @@ package BinaryTreeSearch;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Stack;
 
 class Node {
 	int key;
@@ -27,6 +28,20 @@ public class BinarySearchTree {
 			System.out.println(node.key);
 			preOrder(node.left);
 			preOrder(node.right);
+		}
+	}
+	
+	private void preOrderTraversal(Node node) {
+		if (node == null) return;
+		Stack<Node> stack = new Stack<Node>();
+		stack.push(node);
+		while (!stack.isEmpty()) {
+			Node tem = stack.pop();
+			System.out.println(tem.key);
+			if (tem.right != null)
+				stack.push(tem.right);
+			if (tem.left != null)
+				stack.push(tem.left);
 		}
 	}
 	
@@ -186,7 +201,8 @@ public class BinarySearchTree {
 	}
 	
 	public void preOrder() {
-		preOrder(root);
+		//preOrder(root);
+		preOrderTraversal(root);
 	}
 	
 	public void inOrder() {
