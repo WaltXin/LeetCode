@@ -47,6 +47,6 @@ public class UnionFind {
         t.union(1,3);
         t.union(5,3);
         System.out.println(t.find(5));
-        System.out.println(t.isConnected(1,5));
+        System.out.println(t.isConnected(1,5)); 
     }
 }
