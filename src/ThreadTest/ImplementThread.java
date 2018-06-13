@@ -25,7 +25,7 @@ class TestImplementThread implements Runnable{
 public class ImplementThread {
 	public static void main(String[] args) {
 		TestImplementThread thread = new TestImplementThread();
-		Thread td = new Thread(thread,"T1");
+		Thread td = new Thread(thread,"UnionFind");
 		td.start();
 		Thread td2 = new Thread(thread, "T2");
 		td2.start();
