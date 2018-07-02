@@ -3,9 +3,9 @@ package LeetCode;
 public class J88_Merge_Sorted_Array {
 	
 	public static void main(String[] args) {
-		int[] arr1 = {2,2,5,0,0,0};
-		int[] arr2 = {1,3,4};
-		int[] res = solution(arr1,arr2);
+		int[] arr1 = {1,2,3,0,0,0,0};
+		int[] arr2 = {2,5,6};
+		int[] res = solution2(arr1,arr2);
 		for (int i : res) {
 			System.out.println(i);
 		}
@@ -29,5 +29,28 @@ public class J88_Merge_Sorted_Array {
 			}
 		}
 		return arr1;
+	}
+	
+	public static int[] solution2(int[] arr1, int[] arr2) {
+		
+		int[] arr = arr1.clone();
+		
+		int index1 = 0, index2 = 0;
+		
+		//after merge arr2 into arr1, the rest of arr1 should be same with arr(because is from clone)
+		for (int i = 0; i < arr1.length; i++) {
+			
+			if (index2 > arr2.length - 1) {
+				arr[i] = arr1[index1];
+				index1++;
+			} else if (arr1[index1] < arr2[index2] && arr1[index1] != 0) {
+				arr[i] = arr1[index1];
+				index1++;
+			} else {
+				arr[i] = arr2[index2];
+				index2++;
+			}
+		}
+		return arr;
 	}
 }
