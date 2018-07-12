@@ -1,0 +1,20 @@
+package LeetCode;
+
+public class J53_Maximum_Subarray {
+    public int maxSubArray(int[] arr) {
+        int sum = 0;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            //ignore all negative value
+            sum = Math.max(sum, 0);
+            sum += arr[i];
+            max = Math.max(sum, max);
+        }
+        return max;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
+        System.out.println(new J53_Maximum_Subarray().maxSubArray(arr));
+    }
+}
