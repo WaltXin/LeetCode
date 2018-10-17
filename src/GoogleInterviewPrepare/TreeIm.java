@@ -38,8 +38,10 @@ public class TreeIm {
                 System.out.println(curr.val);
                 curr = curr.left;
             } else {
-                curr = stack.pop();
-                curr = curr.right;
+                if (!stack.isEmpty()) {
+                    curr = stack.pop();
+                    curr = curr.right;
+                }
             }
         }
     }
@@ -59,10 +61,12 @@ public class TreeIm {
                 stack.push(curr);
                 curr = curr.left;
             } else {
-                //pop the left
-                curr = stack.pop();
-                System.out.println(curr.val);
-                curr = curr.right;
+                if (!stack.isEmpty()) {
+                    //pop the left
+                    curr = stack.pop();
+                    System.out.println(curr.val);
+                    curr = curr.right;
+                }
             }
         }
     }
@@ -75,9 +79,29 @@ public class TreeIm {
     }
 
     public void postOrderIte(Node node) {
-
-
-
+        Stack<Node> stack = new Stack<>();
+        Node curr = node;
+        while (curr != null || !stack.isEmpty()) {
+            if (curr != null) {
+                stack.push(curr);
+                stack.push(curr);
+                curr = curr.left;
+            } else {
+                if (!stack.isEmpty()) {
+                    curr = stack.pop();
+                    //check if we went to right or not, if curr equals stack.peek means never visited node right
+                    //should visited node.right
+                    if (!stack.isEmpty() && curr == stack.peek()) {
+                        curr = curr.right;
+                    } else {
+                        //curr != stack.peek means we already visited node.right we should out put curr value
+                        System.out.println(curr.val);
+                        //set null to come here again
+                        curr = null;
+                    }
+                }
+            }
+        }
     }
 
     private int height(Node node) {
@@ -164,7 +188,8 @@ public class TreeIm {
         //new TreeIm().preOrder(root);
         //new TreeIm().preOrderIte(root);
         //new TreeIm().inOrderIte(root);
-        new TreeIm().bfs(root);
-        System.out.println("tree height: " + new TreeIm().treeHeight(root));
+        //new TreeIm().bfs(root);
+        //System.out.println("tree height: " + new TreeIm().treeHeight(root));
+        new TreeIm().postOrderIte(root);
     }
 }
