@@ -104,7 +104,7 @@ public class TreeIm {
         }
     }
 
-    private int height(Node node) {
+    public int height(Node node) {
         if (node.left != null && node.right != null) {
             return 1 + Math.max(height(node.left), height(node.right));
         }
@@ -119,7 +119,7 @@ public class TreeIm {
         }
     }
 
-    private int heightIte(Node node) {
+    public int heightIte(Node node) {
         if (node == null) return 0;
         int height = -1;
         Queue<Node> queue = new LinkedList<>();
@@ -157,26 +157,35 @@ public class TreeIm {
     }
     //insert
     //remove
-    //tree height recursive
-    public int treeHeight(Node node) {
-        if (node == null) return -1;
-        int height = -1;
+
+    //revert tree
+
+    public Node revertTree(Node node) {
+        if (node == null) return null;
+        node.left = revertTree(node.left);
+        node.right = revertTree(node.right);
+        Node tem = node.left;
+        node.left = node.right;
+        node.right = tem;
+        return node;
+    }
+
+    public Node revertTreeIte(Node node) {
+        if (node == null) return null;
         Queue<Node> queue = new LinkedList<>();
         queue.add(node);
         while (!queue.isEmpty()) {
-            for (int i = 0; i < queue.size(); i++) {
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
-            }
-            height++;
+            Node curr = queue.remove();
+            Node tem = curr.left;
+            curr.left = curr.right;
+            curr.right = tem;
+            if (curr.left != null)
+                queue.add(curr.left);
+            if (curr.right != null)
+                queue.add(curr.right);
         }
-        return height;
+        return node;
     }
-    //tree height iterative
 
     public static void main(String[] args) {
         TreeIm tree = new TreeIm();
@@ -191,5 +200,7 @@ public class TreeIm {
         //new TreeIm().bfs(root);
         //System.out.println("tree height: " + new TreeIm().treeHeight(root));
         new TreeIm().postOrderIte(root);
+        //new TreeIm().revertTree(root);
+        new TreeIm().revertTreeIte(root);
     }
 }
