@@ -54,7 +54,7 @@ public class SparseGraph {
     public int getNodesCount() {
         return n;
     }
-/*
+
     public static void main(String[] args) {
         SparseGraph g = new SparseGraph(7, false);
         g.addEdge(0,1);
@@ -66,7 +66,7 @@ public class SparseGraph {
         g.addEdge(4,5);
         g.addEdge(4,6);
         g.getAdList();
-        //System.out.println(g.getNodeList(0));
+        System.out.println(g.getNodeList(0));
     }
-   */
+
 }

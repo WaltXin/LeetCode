@@ -36,4 +36,9 @@ public class SparseGraphIm {
     public boolean hasEdge(int v, int w) {
         return adList.get(v).contains(w);
     }
+
+    public ArrayList<Integer> getNodeList(int node) {
+        if (node < 0 || node >= n) return null;
+        return adList.get(node);
+    }
 }
