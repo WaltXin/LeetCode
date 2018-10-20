@@ -50,3 +50,5 @@ build/
 out/
 .class
 .idea/
+.idea/inspectionProfiles/Project_Default.xml
+.idea/workspace.xml

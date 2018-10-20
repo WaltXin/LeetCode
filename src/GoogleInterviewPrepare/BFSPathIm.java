@@ -79,5 +79,9 @@ public class BFSPathIm {
         BFSPathIm bfs = new BFSPathIm(graph);
         ArrayList<Integer> al = bfs.getPath(5);
         System.out.println(al);
+        int[] res = bfs.ord;
+        for (int i : res) {
+            System.out.println(i);
+        }
     }
 }
