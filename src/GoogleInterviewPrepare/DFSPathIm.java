@@ -37,8 +37,8 @@ public class DFSPathIm {
         if (visited[v] == 1) {
             Stack<Integer> stack = new Stack<>();
             int p = v;
-            while (from[p] != -1) {
-                stack.push(from[p]);
+            while (p != -1) {
+                stack.push(p);
                 p = from[p];
             }
             ArrayList<Integer> al = new ArrayList<>();
