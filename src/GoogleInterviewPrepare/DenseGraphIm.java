@@ -1,5 +1,7 @@
 package GoogleInterviewPrepare;
 
+import java.util.ArrayList;
+
 public class DenseGraphIm {
     //nodes count
     int n;
@@ -29,5 +31,13 @@ public class DenseGraphIm {
 
     public boolean hasEdge(int v, int w) {
         return adMatrix[v][w] == 1;
+    }
+
+    public ArrayList<Integer> getNodeList(int v) {
+        ArrayList<Integer> al = new ArrayList<>();
+        for (int i = 0; i < n; i++)
+            if (adMatrix[v][i] == 1)
+                al.add(i);
+        return al;
     }
 }
