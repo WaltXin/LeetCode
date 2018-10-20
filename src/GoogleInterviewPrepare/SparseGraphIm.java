@@ -7,7 +7,7 @@ import java.util.Map;
 public class SparseGraphIm {
     //nodes count
     int n;
-    //edges count
+    //edgeList count
     int m;
     //directed
     boolean directed;
