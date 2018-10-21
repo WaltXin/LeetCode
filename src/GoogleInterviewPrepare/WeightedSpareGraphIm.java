@@ -20,7 +20,7 @@ public class WeightedSpareGraphIm {
         }
     }
 
-    public void addEdge(int v, int w, int weight) {
+    public void addEdge(int v, int w, double weight) {
         //if has edge, use the less weighted one
         double checkWeight = hasEdge(v, w);
         if (checkWeight != -1) {
@@ -36,10 +36,9 @@ public class WeightedSpareGraphIm {
                 return;
             }
         }
-        ArrayList<Edge> al = adList.get(v);
-        al.add(new Edge(v, w, weight));
+        adList.get(v).add(new Edge(v, w, weight));
         if (!directed)
-            al.add(new Edge(v, w, weight));
+           adList.get(w).add(new Edge(w, v, weight));
     }
 
     public double hasEdge(int v, int w) {
@@ -73,5 +72,7 @@ public class WeightedSpareGraphIm {
             for (Edge ed : al)
                 System.out.println("i: " + i + " a: " + ed.a + " b: " + ed.b + " weight: " + ed.getWeight());
         }
+
+        ArrayList<Edge> al = g.getNodeList(0);
     }
 }

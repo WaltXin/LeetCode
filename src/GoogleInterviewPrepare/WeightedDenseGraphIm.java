@@ -52,7 +52,7 @@ public class WeightedDenseGraphIm {
         if (v != w) {
             edgeList[v][w] = new Edge(v, w, weight);
             if (!directed)
-                edgeList[w][v] = new Edge(v, w, weight);
+                edgeList[w][v] = new Edge(w, v, weight);
             m++;
         }
     }
@@ -73,8 +73,8 @@ public class WeightedDenseGraphIm {
 
     public static void main(String[] args) {
         WeightedDenseGraphIm g = new WeightedDenseGraphIm(9, true);
-        g.addEdge(0,1, 3);
-        g.addEdge(0,1,2);
+        g.addEdge(0,1, 3.1);
+        g.addEdge(0,1,2.11);
         g.addEdge(0,2,2);
         g.addEdge(0,5,1);
         g.addEdge(0,6,2);
