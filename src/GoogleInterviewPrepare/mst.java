@@ -4,35 +4,34 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class MinimumSpanTree {
+public class mst {
     WeightedSpareGraphIm graph;
-    PriorityQueue<Edge> minHeap;
-    //if marked means already in mst
-    boolean[] marked;
-    double mstWeight;
-    //store edge
+    PriorityQueue<Edge> pq;
+    boolean marked[];
     ArrayList<Edge> mst = new ArrayList<>();
-    MinimumSpanTree(WeightedSpareGraphIm graph) {
+    double mstWeight = 0;
+
+    mst(WeightedSpareGraphIm graph) {
         this.graph = graph;
-        minHeap = new PriorityQueue<Edge>(graph.n, new Comparator<Edge>(){
+        pq = new PriorityQueue<Edge>(graph.n, new Comparator<Edge>() {
             @Override
             public int compare(Edge o1, Edge o2) {
                 return (o1.weight - o2.weight > 0) ? 1 : -1;
             }
         });
         marked = new boolean[graph.n];
-        /*for (int i = 0; i < graph.n; i++) {
-            marked[i] = false;
-        }*/
 
         visit(0);
-        while (!minHeap.isEmpty()) {
-            Edge e = minHeap.poll();
-            //because we use lazy prim we need make sure this is crossing edge
-            if (marked[e.a] == marked[e.b])
+
+        while (!pq.isEmpty()) {
+            Edge e = pq.poll();
+            if (marked[e.a] != marked[e.b]) {
+                //crossing edge
+                mst.add(e);
+            } else {
                 continue;
-            mst.add(e);
-            if(!marked[e.a])
+            }
+            if (!marked[e.a])
                 visit(e.a);
             else
                 visit(e.b);
@@ -43,23 +42,25 @@ public class MinimumSpanTree {
             mstWeight += mst.get(i).weight;
         }
     }
-
+    //put one node and mark as red
     public void visit(int v) {
-        //assert v
         if (marked[v]) return;
         marked[v] = true;
         ArrayList<Edge> edgeList = graph.getNodeList(v);
-        for (Edge ed : edgeList) {
-            if (!marked[ed.b]) {
-                //means we found crossing edge
-                minHeap.add(ed);
+        for (Edge e : edgeList) {
+            if (marked[v] != marked[e.b]) {
+                //in different group
+                pq.add(e);
             }
         }
-
     }
 
-    public ArrayList<Edge> getMST() {
+    public ArrayList<Edge> getMst() {
         return mst;
+    }
+
+    public double getMstWeight() {
+        return mstWeight;
     }
 
     public static void main(String[] args) {
@@ -82,11 +83,11 @@ public class MinimumSpanTree {
         g.addEdge(4,7, 0.37);
         g.addEdge(5,7, 0.28);
 
-
-        MinimumSpanTree mst = new MinimumSpanTree(g);
-        ArrayList<Edge> res = mst.getMST();
+        mst ms = new mst(g);
+        ArrayList<Edge> res = ms.getMst();
         for (Edge e : res)
             System.out.println(" " + " a: " + e.a + " b: " + e.b + " weight: " + e.weight);
-        System.out.println(mst.mstWeight);
+        System.out.println(ms.mstWeight);
     }
+
 }
