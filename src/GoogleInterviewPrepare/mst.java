@@ -16,7 +16,7 @@ public class mst {
         pq = new PriorityQueue<Edge>(graph.n, new Comparator<Edge>() {
             @Override
             public int compare(Edge o1, Edge o2) {
-                return (o1.weight - o2.weight > 0) ? 1 : -1;
+                return Double.compare(o1.weight, o2.weight);
             }
         });
         marked = new boolean[graph.n];
