@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1a57af2-b08a-43da-bb0a-06f930750dc4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoogleInterviewPrepare/mst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoogleInterviewPrepare/mst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +17,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="64" />
+          <entry key="java" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="64" />
+          <entry key="JAVA" value="92" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -30,22 +30,24 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="gitignore" value="4" />
-          <entry key="java" value="16839" />
+          <entry key="java" value="22242" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16839" />
+          <entry key="JAVA" value="22242" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -53,103 +55,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/SparseGraphIm.java">
+        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="106">
+              <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#TreeIm#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/WeightedDenseGraphIm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/WeightedSpareGraphIm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DFSPathIm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="57" column="27" selection-start-line="53" selection-start-column="7" selection-end-line="57" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/BFSPathIm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HeapPac/IndexHeapClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J230_Kth_Smallest_Element_in_a_BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DijkstraIm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-              <folding>
-                <element signature="e#2289#2290#0" expanded="true" />
-                <element signature="e#2329#2330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/mst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GraphPac/MinHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -163,23 +94,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>junit</find>
+      <find>J39</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/J447_Number_of_Boomerangs.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J231_Power_Of_Two.java" />
-        <option value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J476_Number_complement.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J371_Sum_Of_Two_Integers.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J260_Singer_NumberIII.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J477_Total_Hamming_Distance.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J137_Single_NumberII.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J405_Convert_Number_To_Hex.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J191_Number_Of_Onebit.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J461_Hamming_Distance.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J190_Reverse_Bit.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/J201_Bitwise_And_Number_Range.java" />
@@ -204,11 +133,9 @@
         <option value="$PROJECT_DIR$/src/InterviewBit/Array/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/Sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/InterviewBit/Array/Pascal_Triangle.java" />
-        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/GraphIm.java" />
         <option value="$PROJECT_DIR$/src/GraphPac/SparseGraph.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/SparseGraphIm.java" />
-        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/DFSPathIm.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/BFSPathIm.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/ComponentIm.java" />
@@ -220,6 +147,19 @@
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/mst.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/DijkstraIm.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/DFSPathIm.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J399_Evaluate_Division.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J210_Course_Schedule_II.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J207_Course_Schedule.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J269_Alien_Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J547_Friend_Circles.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J684_Redundant_Connection.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J399_Evaluate_Division_Spanning_Tree.java" />
+        <option value="$PROJECT_DIR$/src/practice/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J332_Reconstruct_Itinerary.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/GraphConclusion.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java" />
+        <option value="$PROJECT_DIR$/src/GoogleInterviewPrepare/J230_Kth_Smallest_Element_in_a_BST.java" />
       </list>
     </option>
   </component>
@@ -242,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,22 +207,11 @@
               <item name="GoogleInterviewPrepare" type="462c0819:PsiDirectoryNode" />
               <item name="DijkstraIm.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HeapPac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -294,8 +222,8 @@
     <property name="SearchEverywhereHistoryKey" value="conso&#9;PSI&#9;JAVA://java.lang.System#console&#10;zoom&#9;ACTION&#9;ZoomCurrentWindow&#10;assertArray&#9;PSI&#9;JAVA://org.junit.Assert#assertArrayEquals" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540162568150" />
-    <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540402642889" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,34 +271,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BFSPathIm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.BFSPathIm" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GoogleInterviewPrepare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.Dijkstra" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GoogleInterviewPrepare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DijkstraIm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.DijkstraIm" />
       <module name="LeetCode" />
@@ -385,13 +285,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexHeapClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapPac.IndexHeapClass" />
+    <configuration name="J207_Course_Schedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.J207_Course_Schedule" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HeapPac.*" />
+          <option name="PATTERN" value="GoogleInterviewPrepare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J269_Alien_Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.J269_Alien_Dictionary" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoogleInterviewPrepare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,16 +319,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.mst" />
+    <configuration name="J399_Evaluate_Division" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GoogleInterviewPrepare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="GoogleInterviewPrepare" />
+      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.J399_Evaluate_Division" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J399_Evaluate_Division.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoogleInterviewPrepare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoogleInterviewPrepare" />
+      <option name="MAIN_CLASS_NAME" value="GoogleInterviewPrepare.J399_Evaluate_Division" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -477,19 +409,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.mst" />
-      <item itemvalue="Application.BFSPathIm" />
-      <item itemvalue="Application.IndexHeapClass" />
-      <item itemvalue="Application.Dijkstra" />
       <item itemvalue="Application.DijkstraIm" />
+      <item itemvalue="JUnit.J399_Evaluate_Division" />
+      <item itemvalue="JUnit.J399_Evaluate_Division.test" />
+      <item itemvalue="Application.J207_Course_Schedule" />
+      <item itemvalue="Application.J269_Alien_Dictionary" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DijkstraIm" />
-        <item itemvalue="Application.mst" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.IndexHeapClass" />
-        <item itemvalue="Application.BFSPathIm" />
+        <item itemvalue="Application.J269_Alien_Dictionary" />
+        <item itemvalue="Application.J207_Course_Schedule" />
+        <item itemvalue="JUnit.J399_Evaluate_Division.test" />
+        <item itemvalue="JUnit.J399_Evaluate_Division" />
       </list>
     </recent_temporary>
   </component>
@@ -506,50 +438,52 @@
       <workItem from="1538508760307" duration="1529000" />
       <workItem from="1538852030512" duration="706000" />
       <workItem from="1538904724696" duration="45244000" />
-      <workItem from="1540117936227" duration="14955000" />
+      <workItem from="1540117936227" duration="16084000" />
+      <workItem from="1540214556995" duration="31480000" />
+      <workItem from="1540378075552" duration="1687000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 16m 56s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 29m 53s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 24m 24s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 30m 20s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 26m 56s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 30m 45s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 30m 14s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 31m 23s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.14 at 19h 31m 07s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 31m 50s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.15 at 12h 00m 22s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 41m 51s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion - 2017.07.15 at 12h 02m 59s.xml">
-      <configuration name="Algo_BinarySearchConclusion" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division - 2018.10.22 at 14h 47m 19s.xml">
+      <configuration name="J399_Evaluate_Division" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.14 at 19h 21m 09s.xml">
-      <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division_test - 2018.10.22 at 14h 48m 12s.xml">
+      <configuration name="J399_Evaluate_Division.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Algo_BinarySearchConclusion_test - 2017.07.14 at 19h 24m 09s.xml">
-      <configuration name="Algo_BinarySearchConclusion.test" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division_test - 2018.10.22 at 14h 48m 49s.xml">
+      <configuration name="J399_Evaluate_Division.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="J278_First_Bad_Version - 2017.07.15 at 12h 53m 09s.xml">
-      <configuration name="J278_First_Bad_Version" configurationId="JUnit" />
+    <history-entry file="J399_Evaluate_Division_test - 2018.10.22 at 14h 49m 27s.xml">
+      <configuration name="J399_Evaluate_Division.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68405000" />
+    <option name="totallyTimeSpent" value="102701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2160229" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -558,9 +492,9 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21680216" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28861788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16802168" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -639,13 +573,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java</url>
-          <line>186</line>
+          <line>187</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java</url>
-          <line>49</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
@@ -656,10 +590,22 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GoogleInterviewPrepare/Dijkstra.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J399_Evaluate_Division.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J399_Evaluate_Division.java</url>
+          <line>110</line>
           <properties />
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J269_Alien_Dictionary.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -669,81 +615,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J342_Power_Of_Four.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J34_Search_For_Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Algo_BinarySearchConclusion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="166" column="95" lean-forward="true" selection-start-line="164" selection-start-column="3" selection-end-line="166" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J278_First_Bad_Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="211" column="27" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/StringSwap.java" />
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/PlusOne.java" />
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J1_Two_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="22" selection-start-line="17" selection-start-column="8" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J2_Add_Two_Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphPac/GraphDepthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphPac/GraphDepthFirstSearchPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/J7_Reverse_Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/J21_Merge_Two_Sorted_Lists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -893,17 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#TreeIm#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -946,20 +806,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DenseGraphIm.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/MinimumSpanTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/Dijkstra.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/SparseGraphIm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DFSPathIm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="57" column="27" selection-start-line="53" selection-start-column="7" selection-end-line="57" selection-end-column="27" />
+        <state relative-caret-position="525">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/WeightedDenseGraphIm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapPac/IndexHeapClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -970,49 +839,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/WeightedDenseGraphIm.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DenseGraphIm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="510">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/MinimumSpanTree.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DFSPathIm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/SparseGraphIm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/BFSPathIm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/WeightedSpareGraphIm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="315">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1021,38 +858,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/mst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="-18">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/Dijkstra.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="249">
+          <caret line="950" column="14" selection-start-line="950" selection-start-column="14" selection-end-line="950" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HeapPac/IndexHeapClass.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J399_Evaluate_Division.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="211">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J684_Redundant_Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/BFSPathIm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J547_Friend_Circles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/WeightedSpareGraphIm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J210_Course_Schedule_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#1495#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J399_Evaluate_Division_Spanning_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1154">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J207_Course_Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J269_Alien_Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/GraphConclusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J332_Reconstruct_Itinerary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/TreeIm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#TreeIm#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/DijkstraIm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-          <folding>
-            <element signature="e#2289#2290#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleInterviewPrepare/J230_Kth_Smallest_Element_in_a_BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>

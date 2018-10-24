@@ -32,16 +32,14 @@ public class TreeIm {
         Stack<Node> stack = new Stack<Node>();
         Node curr = node;
         //stack.add(node);
-        while (!stack.isEmpty() || curr != null) {
+        while (curr != null || !stack.isEmpty()) {
             if (curr != null) {
-                stack.push(curr);
                 System.out.println(curr.val);
+                stack.push(curr);
                 curr = curr.left;
             } else {
-                if (!stack.isEmpty()) {
-                    curr = stack.pop();
-                    curr = curr.right;
-                }
+                curr = stack.pop();
+                curr = curr.right;
             }
         }
     }
@@ -56,17 +54,15 @@ public class TreeIm {
     public void inOrderIte(Node node) {
         Stack<Node> stack = new Stack<Node>();
         Node curr = node;
-        while (!stack.isEmpty() || curr != null) {
+        while (curr != null || !stack.isEmpty()) {
             if (curr != null) {
                 stack.push(curr);
                 curr = curr.left;
             } else {
-                if (!stack.isEmpty()) {
-                    //pop the left
-                    curr = stack.pop();
-                    System.out.println(curr.val);
-                    curr = curr.right;
-                }
+                //pop the left
+                curr = stack.pop();
+                System.out.println(curr.val);
+                curr = curr.right;
             }
         }
     }
@@ -87,18 +83,16 @@ public class TreeIm {
                 stack.push(curr);
                 curr = curr.left;
             } else {
-                if (!stack.isEmpty()) {
-                    curr = stack.pop();
-                    //check if we went to right or not, if curr equals stack.peek means never visited node right
-                    //should visited node.right
-                    if (!stack.isEmpty() && curr == stack.peek()) {
-                        curr = curr.right;
-                    } else {
-                        //curr != stack.peek means we already visited node.right we should out put curr value
-                        System.out.println(curr.val);
-                        //set null to come here again
-                        curr = null;
-                    }
+                curr = stack.pop();
+                //check if we went to right or not, if curr equals stack.peek means never visited node right
+                //should visited node.right
+                if (!stack.isEmpty() && curr == stack.peek()) {
+                    curr = curr.right;
+                } else {
+                    //curr != stack.peek means we already visited node.right we should out put curr value
+                    System.out.println(curr.val);
+                    //set null to come here again
+                    curr = null;
                 }
             }
         }
@@ -159,14 +153,21 @@ public class TreeIm {
     //remove
 
     //revert tree
+    /**
+     * for every node, only swap this nodes Left and Right child
+     * */
 
     public Node revertTree(Node node) {
-        if (node == null) return null;
-        node.left = revertTree(node.left);
-        node.right = revertTree(node.right);
-        Node tem = node.left;
+        if (node == null) {
+            return null;
+        }
+        Node temp = node.left;
         node.left = node.right;
-        node.right = tem;
+        node.right = temp;
+
+        revertTree(node.left);
+        revertTree(node.right);
+
         return node;
     }
 
