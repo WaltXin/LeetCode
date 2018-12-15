@@ -1,5 +1,6 @@
-package GoogleInterviewPrepare;
+package InterviewPrepare;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -13,7 +14,17 @@ class Node {
     }
 }
 
+
 public class TreeIm {
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
+
+
     int size;
     Node root;
     TreeIm () {
@@ -188,6 +199,78 @@ public class TreeIm {
         return node;
     }
 
+
+    //get all path to leaf node
+    public void getPath(TreeNode root, ArrayList<String> res, String path) {
+        if (root == null) {
+            return;
+        }
+        if (root.left == null || root.right == null) {
+            path += root.val;
+            res.add(path);
+            return;
+        }
+        path += root.val + "->";
+        getPath(root.left, res, path);
+        getPath(root.right, res, path);
+    }
+
+    //check if a tree is balanced tree(each level height should less than 1)
+    //for each node, only care about if it's child node's left and right diff <= 1
+    /**
+     * Time complexity: O(N) Space: O(H) H is tree height
+     * */
+    public int checkHeight(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = checkHeight(root.left);
+        if (left == -1) {
+            return -1;
+        }
+        left++;
+        int right = checkHeight(root.right);
+        if (right == -1) {
+            return -1;
+        }
+        right++;
+
+        if (Math.abs(left - right) > 1) {
+            return -1;
+        }
+        return Math.max(left, right);
+    }
+
+    //create a minimum bst
+    public TreeNode minimumBST(int[] array, int start, int end) {
+        if (start > end) {
+            return null;
+        }
+        int mid = (start + end) / 2;
+        TreeNode n = new TreeNode(array[mid]);
+        n.left = minimumBST(array, start, mid - 1);
+        n.right = minimumBST(array, mid + 1, end);
+        return n;
+    }
+
+    //check if a tree is a binary search tree
+    int previous = Integer.MIN_VALUE;
+    public boolean isBST(TreeNode root) {
+        if (root == null) return true;
+        //check left
+        if(!isBST(root.left)) {
+            return false;
+        }
+        if (root.val <= previous) {
+            return false;
+        }
+        previous = root.val;
+        if (!isBST(root.right)) {
+            return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         TreeIm tree = new TreeIm();
         Node root = new Node(5);
@@ -200,8 +283,8 @@ public class TreeIm {
         //new TreeIm().inOrderIte(root);
         //new TreeIm().bfs(root);
         //System.out.println("tree height: " + new TreeIm().treeHeight(root));
-        new TreeIm().postOrderIte(root);
-        //new TreeIm().revertTree(root);
-        new TreeIm().revertTreeIte(root);
+        //new TreeIm().postOrderIte(root);
+        Node noder = new TreeIm().revertTree(root);
+        //new TreeIm().revertTreeIte(root);
     }
 }

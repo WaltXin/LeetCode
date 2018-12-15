@@ -1,4 +1,4 @@
-package GoogleInterviewPrepare;
+package InterviewPrepare;
 
 import org.junit.Test;
 

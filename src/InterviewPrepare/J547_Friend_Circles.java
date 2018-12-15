@@ -1,4 +1,4 @@
-package GoogleInterviewPrepare;
+package InterviewPrepare;
 
 public class J547_Friend_Circles {
     public int findCircleNum(int[][] M) {

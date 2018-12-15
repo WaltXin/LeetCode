@@ -1,4 +1,4 @@
-package GoogleInterviewPrepare;
+package InterviewPrepare;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -37,12 +37,7 @@ public class GraphConclusion {
      * */
     public void solution(WeightedSpareGraphIm graph) {
         boolean[] visited = new boolean[graph.n];
-        PriorityQueue<Edge> pq = new PriorityQueue<>(graph.n, new Comparator<Edge>() {
-            @Override
-            public int compare(Edge o1, Edge o2) {
-                return o1.weight > o2.weight ? 1 : -1;
-            }
-        });
+        PriorityQueue<Edge> pq = new PriorityQueue<>(Comparator.comparing(k -> k.weight));
 
         pq.add(new Edge(0,1, 0));
 
@@ -62,6 +57,7 @@ public class GraphConclusion {
 
     /**
      * DFS
+     * visited
      * */
     public void dfsSolution(WeightedSpareGraphIm graph) {
         boolean[] visited = new boolean[graph.n];
@@ -120,6 +116,11 @@ public class GraphConclusion {
      * Cycle detection and topological sort (DFS)
      * Define State[Pending, COMPLETE]
      *
+     * public enum State{
+     *     PENDING,
+     *     COMPLETE
+     * }
+     *
      * Core code
      *
      * public boolean hasCycle(int v, State[] state, ArrayList<ArrayList<Integer>> graph) {
@@ -135,6 +136,8 @@ public class GraphConclusion {
      *             }
      *         }
      *         state[v] = State.COMPLETE;
+     *         //TOPOLOGICAL SORT POSITION
+     *         //after v being complete add in sort list
      *         return false;
      *     }
      *

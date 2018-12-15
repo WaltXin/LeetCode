@@ -1,4 +1,4 @@
-package GoogleInterviewPrepare;
+package InterviewPrepare;
 
 public class J684_Redundant_Connection {
     public int[] findRedundantConnection(int[][] edges) {

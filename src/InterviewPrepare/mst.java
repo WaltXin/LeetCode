@@ -1,4 +1,4 @@
-package GoogleInterviewPrepare;
+package InterviewPrepare;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -13,12 +13,7 @@ public class mst {
 
     mst(WeightedSpareGraphIm graph) {
         this.graph = graph;
-        pq = new PriorityQueue<Edge>(graph.n, new Comparator<Edge>() {
-            @Override
-            public int compare(Edge o1, Edge o2) {
-                return Double.compare(o1.weight, o2.weight);
-            }
-        });
+        pq = new PriorityQueue<Edge>(graph.n, Comparator.comparing(k -> k.weight));
         marked = new boolean[graph.n];
 
         visit(0);
