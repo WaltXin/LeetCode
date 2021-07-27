@@ -1,6 +1,5 @@
 package practice;
 
-import com.sun.media.sound.MidiUtils;
 import junit.framework.TestCase;
 import org.junit.Test;
 
