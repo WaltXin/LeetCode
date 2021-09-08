@@ -96,4 +96,34 @@ public class WaterFalls {
     public static void main(String[] args) {
         solution(input);
     }
+
+
+    /*
+    outputs:
+    |a b c d    |
+    | = === = e |
+    |         ==|
+    |   =       |
+
+    |   c       |
+    |a=b===d=e  |
+    |         ==|
+    |   =       |
+
+    |  c        |
+    | = === =   |
+    |a b   d e==|
+    |   =       |
+
+    |           |
+    | =c=== =   |
+    |         ==|
+    |a b=  d e  |
+
+    |           |
+    | = === =   |
+    |  c      ==|
+    | ab= d e   |
+
+    **/
 }
