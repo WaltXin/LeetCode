@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-//Cons
+/**
+ * Company: Square
+ * Simulate waters fall
+ * */
 public class WaterFalls {
     static String input[] = {
             "| a b c d e |",
