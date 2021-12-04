@@ -15,7 +15,9 @@ public class Dijkstra {
         Map<Integer, List<int[]>> graph = new HashMap<>();
         for (int[] path : paths) {
             graph.putIfAbsent(path[0], new ArrayList<>());
+            graph.putIfAbsent(path[1], new ArrayList<>());
             graph.get(path[0]).add(new int[]{path[1], path[2]});
+            graph.get(path[1]).add(new int[]{path[0], path[2]});
         }
         //key: currNode value: {from previous node(shortest), weight}
         Map<Integer, int[]> from = new HashMap<>();
@@ -56,7 +58,7 @@ public class Dijkstra {
     public static void main(String[] args) {
         int[][] paths = {{0, 1, 5}, {0, 2, 2}, {0, 3, 6}, {2, 1, 1}, {2, 3, 3}, {2, 4, 5},
                 {1, 4, 1}, {3, 4, 2}};
-        List<Integer> res = new Dijkstra().getShortestPath(paths, 0, 4);
+        List<Integer> res = new Dijkstra().getShortestPath(paths, 0, 3);
         System.out.println(res);
     }
 }
